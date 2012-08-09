@@ -1,0 +1,142 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace crescent "library://cavalier/frameworks/crescent";
+@namespace supportClasses "frameworks.crescent.components.supportClasses.*";
+
+/* Global Styles */
+
+@font-face { 
+	src: url("Walkway_SemiBold.ttf"); 
+	fontFamily: Walkway; 
+	embedAsCFF: false;
+}
+
+s|Label{
+	color: #cccccc;
+}
+
+/* Crescent UI 2.0 Components */
+
+crescent|Button{
+	skinClass: ClassReference('frameworks.crescent.skins.ButtonSkin');
+	fontSize: 12;
+	color: #ffffff;
+}
+
+crescent|RedButton{
+	skinClass: ClassReference('frameworks.crescent.skins.RedButtonSkin');
+	fontSize: 12;
+	color: #ffffff;
+}
+
+crescent|RoundedOrangeButton{
+	skinClass: ClassReference('frameworks.crescent.skins.RoundedOrangeButtonSkin');
+	fontSize: 12;
+	color: #ffffff;
+}
+
+crescent|CircularButton{
+	skinClass: ClassReference('frameworks.crescent.skins.CircularButtonSkin');
+}
+
+crescent|RedCircularButton{
+	skinClass: ClassReference('frameworks.crescent.skins.RedCircularButtonSkin');
+}
+
+crescent|OrangeCircularButton{
+	skinClass: ClassReference('frameworks.crescent.skins.OrangeCircularButtonSkin');
+}
+
+crescent|RadioButton{
+	skinClass: ClassReference('frameworks.crescent.skins.RadioButtonSkin');
+	color: #ffffff;
+}
+
+
+crescent|List{
+	skinClass: ClassReference('frameworks.crescent.skins.ListSkin');
+}
+
+crescent|TextInput{
+	skinClass: ClassReference('frameworks.crescent.skins.TextInputSkin');
+	focusSkin: ClassReference(null);
+	
+	fontSize: 12;
+	fontWeight: normal;
+	color: #cccccc;
+}
+
+crescent|NumericLabel{
+	skinClass: ClassReference('frameworks.crescent.skins.NumericLabelSkin');
+	fontSize: 14;
+	fontWeight: normal;
+	color: #cccccc;
+}
+
+crescent|Tile{
+	skinClass: ClassReference('frameworks.crescent.skins.TileSkin');
+}
+
+crescent|Pager{
+	skinClass: ClassReference('frameworks.crescent.skins.PagerSkin');
+}
+
+crescent|SocketGroup{
+	skinClass: ClassReference("frameworks.crescent.skins.SocketGroupSkin");
+}
+
+crescent|Accordion{
+	skinClass: ClassReference('frameworks.crescent.skins.AccordionSkin');
+}
+
+crescent|AccordionSection{
+	skinClass: ClassReference('frameworks.crescent.skins.AccordionSectionSkin');
+}
+
+crescent|Section{
+	skinClass: ClassReference('frameworks.crescent.skins.SectionSkin');
+}
+
+crescent|Window{
+	skinClass: ClassReference('frameworks.crescent.skins.WindowSkin');
+}
+
+crescent|Switch{
+	skinClass: ClassReference('frameworks.crescent.skins.SwitchSkin');
+}
+
+/* Support Classes */
+
+supportClasses|DefaultItemRendererBackground{
+	skinClass: ClassReference('frameworks.crescent.skins.DefaultItemRendererBackgroundSkin');
+}
+
+supportClasses|AccordionTitleBar{
+	skinClass: ClassReference('frameworks.crescent.skins.AccordionTitleBarSkin');
+	color: #696969;
+	fontSize: 40;
+	fontFamily: 'Walkway';
+	verticalAlign: middle;
+}
+
+supportClasses|SectionTitleBar{
+	skinClass: ClassReference('frameworks.crescent.skins.SectionTitleBarSkin');
+	color: #696969;
+	fontSize: 26;
+	fontFamily: 'Walkway';
+	verticalAlign: middle;
+}
+
+supportClasses|PagerIndicator{
+	skinClass: ClassReference('frameworks.crescent.skins.PagerIndicatorSkin');
+}
+
+/* Activity Components and Containers */
+
+crescent|Activity{
+	skinClass: ClassReference('frameworks.crescent.skins.ActivitySkin');
+}
+
+crescent|ActivityDeck{
+	skinClass: ClassReference('frameworks.crescent.skins.ActivityDeckSkin');
+}

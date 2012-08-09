@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<!-- Crescent UI 2.0 -->
+
+<componentPackage>
+	<!--  Essentials -->
+    <component id="Button" class="frameworks.crescent.components.Button"/>
+    <component id="RedButton" class="frameworks.crescent.components.RedButton"/>
+    <component id="CircularButton" class="frameworks.crescent.components.CircularButton"/>
+    <component id="RedCircularButton" class="frameworks.crescent.components.RedCircularButton"/>
+    <component id="OrangeCircularButton" class="frameworks.crescent.components.OrangeCircularButton"/>
+    <component id="RoundedOrangeButton" class="frameworks.crescent.components.RoundedOrangeButton"/>
+    <component id="RadioButton" class="frameworks.crescent.components.RadioButton"/>
+    <component id="List" class="frameworks.crescent.components.List"/>
+    <component id="TextInput" class="frameworks.crescent.components.TextInput"/>
+    <component id="NumericLabel" class="frameworks.crescent.components.NumericLabel"/>
+    <component id="Tile" class="frameworks.crescent.components.Tile"/>
+    <component id="Pager" class="frameworks.crescent.components.Pager"/>
+    <component id="SocketGroup" class="frameworks.crescent.components.SocketGroup"/>
+    <component id="Accordion" class="frameworks.crescent.components.Accordion"/>
+    <component id="AccordionSection" class="frameworks.crescent.components.AccordionSection"/>
+    <component id="Section" class="frameworks.crescent.components.Section"/>
+    <component id="Window" class="frameworks.crescent.components.Window"/>
+    <component id="Switch" class="frameworks.crescent.components.Switch"/>
+    <component id="ProgressBar" class="frameworks.crescent.components.ProgressBar"/>
+    
+    <!--  Supportive -->
+    <component id="DefaultItemRendererBackground" class="frameworks.crescent.components.supportClasses.DefaultItemRendererBackground"/>
+    <component id="AccordionTitleBar" class="frameworks.crescent.components.supportClasses.AccordionTitleBar"/>
+    <component id="SectionTitleBar" class="frameworks.crescent.components.supportClasses.SectionTitleBar"/>
+    
+    <!--  Activities -->
+    <component id="Activity" class="frameworks.crescent.activity.Activity"/>
+    <component id="ActivityDeck" class="frameworks.crescent.activity.ActivityDeck"/>
+</componentPackage>

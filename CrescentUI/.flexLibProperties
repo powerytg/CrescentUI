@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="true" version="3">
+  <includeClasses>
+    <classEntry path="frameworks.crescent.components.List"/>
+    <classEntry path="frameworks.crescent.skins.ListSkin"/>
+    <classEntry path="frameworks.crescent.components.supportClasses.DefaultItemRendererBackground"/>
+    <classEntry path="frameworks.crescent.skins.DefaultItemRendererBackgroundSkin"/>
+    <classEntry path="frameworks.crescent.components.TextInput"/>
+    <classEntry path="frameworks.crescent.skins.TextInputSkin"/>
+    <classEntry path="frameworks.crescent.components.CircularButton"/>
+    <classEntry path="frameworks.crescent.skins.CircularButtonSkin"/>
+    <classEntry path="frameworks.crescent.components.Tile"/>
+    <classEntry path="frameworks.crescent.skins.TileSkin"/>
+    <classEntry path="frameworks.crescent.activity.Activity"/>
+    <classEntry path="frameworks.crescent.skins.ActivitySkin"/>
+    <classEntry path="frameworks.crescent.activity.ActivityDeck"/>
+    <classEntry path="frameworks.crescent.skins.ActivityDeckSkin"/>
+    <classEntry path="frameworks.cavalier.plugins.Plugin"/>
+    <classEntry path="frameworks.crescent.skins.AccordionSectionSkin"/>
+    <classEntry path="frameworks.crescent.skins.AccordionTitleBarSkin"/>
+    <classEntry path="frameworks.crescent.components.SocketGroup"/>
+    <classEntry path="frameworks.crescent.skins.SocketGroupSkin"/>
+    <classEntry path="frameworks.crescent.components.RoundedOrangeButton"/>
+    <classEntry path="frameworks.crescent.skins.RoundedOrangeButtonSkin"/>
+    <classEntry path="frameworks.crescent.components.Section"/>
+    <classEntry path="frameworks.crescent.skins.SectionSkin"/>
+    <classEntry path="frameworks.crescent.activity.events.ActivityContainerEvent"/>
+    <classEntry path="frameworks.crescent.activity.events.ActivityDeckEvent"/>
+    <classEntry path="frameworks.crescent.activity.ActivityDeckScrollingStyle"/>
+    <classEntry path="frameworks.crescent.components.RadioButton"/>
+    <classEntry path="frameworks.crescent.skins.RadioButtonSkin"/>
+    <classEntry path="frameworks.crescent.components.Window"/>
+    <classEntry path="frameworks.crescent.skins.WindowSkin"/>
+    <classEntry path="frameworks.crescent.components.Switch"/>
+    <classEntry path="frameworks.crescent.skins.SwitchSkin"/>
+  </includeClasses>
+  <includeResources>
+    <resourceEntry destPath="design.xml" sourcePath="design.xml"/>
+    <resourceEntry destPath="Walkway_SemiBold.ttf" sourcePath="Walkway_SemiBold.ttf"/>
+    <resourceEntry destPath="defaults.css" sourcePath="defaults.css"/>
+  </includeResources>
+  <namespaceManifests>
+    <namespaceManifestEntry manifest="manifest.xml" namespace="library://cavalier/frameworks/crescent"/>
+  </namespaceManifests>
+</flexLibProperties>
