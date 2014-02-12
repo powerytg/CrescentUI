@@ -16,3 +16,8 @@ The Crescent UI's solo goal is to showcase the idea the even extremely complex U
 Crescent UI is designed to be multi-screen, which means it runs on both mobile AIR and desktop AIR/FlashPlayer environment. For more info, see the Cavalier Project repo:
 
 https://github.com/powerytg/Cavalier
+
+Screenshots:
+
+![Alt text](/screenshots/1.jpg "example")
+![Alt text](/screenshots/2.jpg "example")
